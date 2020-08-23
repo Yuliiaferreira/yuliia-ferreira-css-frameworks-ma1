@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text2);
+    background-color: var(--primary);
+    font-size: 12px;
+    padding: 0.5em;
+}
+ footer div {
+    margin: 0 40px;
+ }
+@media (max-width: 768px) {
+    footer {
+        background-color: var(--footer-color);
+        text-align: center;
+        display: inline-block;        
+    }
+}
